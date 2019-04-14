@@ -1,0 +1,45 @@
+html, body, #app, #app>div {
+    height: 100%
+}
+
+#app{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.watermelon-box{
+    width: 100%;
+    padding: 50px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.watermelon{
+    padding: 20px;
+}
+
+.sliders-box{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.slider{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type='range'] {
+    width: 200px;
+    overflow: hidden;
+    -webkit-appearance: none;
+    background-color: red;
+}
